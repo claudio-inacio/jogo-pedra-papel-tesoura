@@ -1,15 +1,17 @@
-✂️ Pedra, Papel e Tesoura — Jogo Interativo
+
+
+# ✂️ Pedra, Papel e Tesoura — Jogo Interativo
 
 Um jogo clássico de Pedra, Papel e Tesoura, desenvolvido para praticar HTML, CSS e JavaScript.
 O objetivo é desafiar a máquina em partidas rápidas, testando sorte, estratégia e reação do jogador.
 
-🧠 Sobre o Projeto
+## 🧠 Sobre o Projeto
 
 O Pedra, Papel e Tesoura é um exercício de lógica, interatividade e manipulação do DOM.
 Cada rodada permite que o jogador escolha uma das três opções e o computador faz sua jogada aleatoriamente.
 O jogo informa quem ganhou a rodada e mantém o placar atualizado, permitindo partidas contínuas e divertidas.
 
-🚀 Tecnologias Utilizadas
+## 🚀 Tecnologias Utilizadas
 
 HTML5 — estrutura do jogo
 
@@ -17,7 +19,7 @@ CSS3 — estilos modernos, responsivos e animações
 
 JavaScript (ES6+) — lógica do jogo, eventos e interação
 
-🕹️ Como Funciona
+## 🕹️ Como Funciona
 
 O jogo possui três botões: Pedra, Papel e Tesoura.
 
@@ -43,9 +45,14 @@ Feedback visual e interativo para cada jogada
 
 Estilo responsivo e agradável usando CSS
 
-🌐 Deploy
+## 🌐 Deploy
 
 Acesse o projeto online:
 👉 jogo-pedra-papel-tesoura-sable.vercel.app
+
+## 🧑‍💻 Como Executar Localmente
+1. Clone este repositório:
+   ```bash
+        git clone https://github.com/claudio-inacio/jogo-pedra-papel-tesoura.git
 
 <img width="1218" height="900" alt="image" src="https://github.com/user-attachments/assets/59a9dcab-3b8a-437d-a222-6f3587ea81c4" />
