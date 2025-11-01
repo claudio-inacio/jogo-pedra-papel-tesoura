@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pedra, Papel e Tesoura ✊📄✂️</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-logo">
+      <img src="img/kisspng-rock-animation-meteorite-stones-and-rocks-5ab487e53c7c01.8211333615217807092478.png" alt="pedra" />
+      <img src="img/5a2a37e3aa0f05.1167056515127162596966.png" alt="papel" />
+      <img src="img/kisspng-rockpaperscissors-computer-icons-5b2038b1085e13.3818549915288383210343.png" alt="tesoura" />
+    </div>
+    <h1>Pedra, Papel e Tesoura</h1>
+    <p class="subtitle">Teste sua sorte contra o computador 👾</p>
+  </header>
+
+  <main id="container">
+    <section id="game" class="game-section">
+      <h2>Escolha seu movimento</h2>
+      <div class="buttons">
+        <button id="pedra" class="choice-btn" data-choice="pedra">
+          <img src="img/kisspng-rock-animation-meteorite-stones-and-rocks-5ab487e53c7c01.8211333615217807092478.png" alt="Pedra" />
+          <span>Pedra</span>
+        </button>
+        <button id="papel" class="choice-btn" data-choice="papel">
+          <img src="img/5a2a37e3aa0f05.1167056515127162596966.png" alt="Papel" />
+          <span>Papel</span>
+        </button>
+        <button id="tesoura" class="choice-btn" data-choice="tesoura">
+          <img src="img/kisspng-rockpaperscissors-computer-icons-5b2038b1085e13.3818549915288383210343.png" alt="Tesoura" />
+          <span>Tesoura</span>
+        </button>
+      </div>
+    </section>
+
+    <section id="computador" class="computer-section">
+      <h2>Computador</h2>
+      <div class="pc-choice">
+        <p>Computador escolheu:</p>
+        <div id="pcChoiceDisplay" class="pc-choice-display">❔</div>
+      </div>
+    </section>
+
+    <section id="resultado" class="result-section">
+      <h2>Resultado</h2>
+      <div class="scoreboard">
+        <div class="score-item">
+          <span>🏆 Vitórias:</span>
+          <strong id="vit">0</strong>
+        </div>
+        <div class="score-item">
+          <span>💀 Derrotas:</span>
+          <strong id="der">0</strong>
+        </div>
+        <div class="score-item">
+          <span>⚖️ Empates:</span>
+          <strong id="empate">0</strong>
+        </div>
+      </div>
+
+      <div class="action-buttons">
+        <button id="reset" class="reset-btn">🔄 Reiniciar Jogo</button>
+      </div>
+
+      <div class="feedback">
+        <p id="mensagemResultado">Faça sua escolha para começar!</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>🎮 Desenvolvido por <strong>Cláudio Inácio</strong> — Projeto de Estudo com HTML, CSS e JS</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
